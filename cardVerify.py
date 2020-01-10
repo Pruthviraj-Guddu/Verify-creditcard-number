@@ -128,7 +128,7 @@ def checkCardValidity(cardName, cardNumber, cardCvv,cardExpiry):
     cardNameValid = validateName(cardName)
     cardCvvValid = validateCvv(cardCvv)
     cardExpiryValid = validateExpiry(cardExpiry)
-    return(cardNameValid and cardNameValid and cardCvvValid and cardExpiryValid)
+    return(cardNumValid and cardNameValid and cardCvvValid and cardExpiryValid)
 
 
 
